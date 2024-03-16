@@ -2,7 +2,18 @@
   "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "https://example.org/iiif/3d/model_origin.json",
   "type": "Manifest",
-  "label": { "en": ["Single Model"] },
+  "label": {
+    "en": [
+      "Astronaut"
+    ],
+    "ru": [
+      "космонавт"
+    ],
+    "zh-CN": [
+      "宇航员"
+    ]
+  },
+
   "summary": { "en": ["Viewer should render the model at the scene origin, and then viewer should add default lighting and camera"] },
   "items": [
     {
