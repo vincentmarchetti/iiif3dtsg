@@ -49,10 +49,7 @@
                   }                  
                 ]
               },
-              "target": {
-                "id": "https://example.org/iiif/scene1/page/p1/1",
-                "type": "Scene"
-              }
+              "target": "https://example.org/iiif/scene1/page/p1/1"
             }
           ]
         }
