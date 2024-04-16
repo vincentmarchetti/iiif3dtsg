@@ -48,7 +48,7 @@
                 "type": "SpecificResource",
                 "source": [
                   {
-                    "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                    "id": "https://spri-open-resources.s3.us-east-2.amazonaws.com/iiif3dtsg/assets/venus.glb",
                     "type": "Model",
                     "format": "application/glb"
                   }
