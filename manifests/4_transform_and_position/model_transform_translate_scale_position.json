@@ -73,7 +73,7 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 1.0,
+                    "x": 2.0,
                     "y": 0.0,
                     "z": 0.0
                   }
