@@ -48,7 +48,7 @@
                 "type": "SpecificResource",
                 "source": [
                   {
-                    "id": "https://spri-open-resources.s3.us-east-2.amazonaws.com/iiif3dtsg/assets/venus.glb",
+                    "id": "https://spri-open-resources.s3.us-east-2.amazonaws.com/iiif3dtsg/assets/archimedes9.glb",
                     "type": "Model",
                     "format": "application/glb"
                   }
@@ -56,9 +56,9 @@
                 "transform" : [
                   {
                     "type": "ScaleTransform",
-                    "x": 0.001,
-                    "y": 0.001,
-                    "z": 0.001
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
                   }
                 ]
               },
