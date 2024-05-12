@@ -35,7 +35,7 @@
                     "color": "#00FF00",
                     "intensity": {  "type" : "Value",
                                     "value": 0.6,
-                                    "unit" : "relativeUnit"
+                                    "unit" : "relative"
                     },
                     "angle" : "10.0",
                     "label": {"en": ["Spot Light 1"]},
