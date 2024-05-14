@@ -26,10 +26,16 @@
                   }
                 ],
                 "transform": [
+{
+"type" : "ScaleTransform",
+"x"    : "0.2",
+"y"    : "0.2",
+"z"    : "0.2"
+},
                   {
                     "type": "RotateTransform",
                     "x": 0.0,
-                    "y": 180.0,
+                    "y": 170.0,
                     "z": 0.0
                   }
                 ]
@@ -45,8 +51,8 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.0,
-                    "y": 0.0,
+                    "x": 0.08,
+                    "y": 1.0,
                     "z": 0.0
                   }
                 ]
@@ -64,7 +70,23 @@
                     "format": "model/x3d+xml"
                   }
                 ],
-                "transform": []
+                "transform": [
+{
+"type" : "ScaleTransform",
+"x"    : 0.3,
+"y"    : 0.3,
+"z"    : 0.3
+},
+
+{
+"type" : "RotateTransform",
+"y"    : 180
+},
+{
+"type" : "RotateTransform",
+"x"    : 10
+}
+]
               },
               "target": {
                 "type": "SpecificResource",
@@ -77,8 +99,8 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.0,
-                    "y": 0.0,
+                    "x": 0.2,
+                    "y": 2.5,
                     "z": 0.0
                   }
                 ]
