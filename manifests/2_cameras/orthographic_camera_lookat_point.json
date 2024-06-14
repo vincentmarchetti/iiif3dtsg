@@ -39,7 +39,7 @@
                   "y": 1,
                   "z": 0
                 },
-                "height" : 3.5
+                "viewHeight" : 3.5
               },
               "target": {
                 "type": "SpecificResource",
