@@ -63,7 +63,7 @@
                     "id": "https://example.org/iiif/scene1/page/p1/1",
                     "type": "Scene",
                     "items": [
-                      {
+                       {
                         "id": "https://example.org/iiif/3d/anno2/scope1/anno1",
                         "type": "Annotation",
                         "motivation": ["painting"],
@@ -71,11 +71,12 @@
                           "id": "https://example.org/iiif/3d/cameras/1",
                           "type": "PerspectiveCamera",
                           "label": {"en": ["Perspective Camera for Glove"]},
+                          "fieldOfView": 20.0,
                           "lookAt": {
                             "type": "PointSelector",
-                            "x": 0.0,
-                            "y": 2.0108470916748047,
-                            "z": -0.012333005666732798
+                            "x": 1.075,
+                            "y": 1.894,
+                            "z": 0.204
                           }
                         },
                         "target": {
@@ -86,14 +87,12 @@
                               "type": "Scene"
                             }
                           ],
-                          "selector": [
-                            {
+                         "selector": {
                               "type": "PointSelector",
-                              "x": 0.0,
-                              "y": 2.010847091674805,
-                              "z": 9.11616179783789
+                              "x": 3.4494102001190186,
+                              "y": 1.9030221700668335,
+                              "z": 0.180599644780159
                             }
-                          ]
                         }
                       }
                     ]
