@@ -33,8 +33,8 @@
                     "id": "https://example.org/iiif/3d/lights/1",
                     "type": "SpotLight",
                     "color": "#00FF00",
-                    "intensity": {  "type" : "Value",
-                                    "value": 0.6,
+                    "intensity": {  "type" : "Quantity",
+                                    "quantityValue": 0.6,
                                     "unit" : "relative"
                     },
                     "angle" : "3.5",
